@@ -29,12 +29,22 @@
       "tags": [],
       "implicitDependencies": ["admin"]
     },
+    "auth": {
+      "tags": []
+    },
     "customer": {
       "tags": []
     },
     "customer-e2e": {
       "tags": [],
       "implicitDependencies": ["customer"]
+    },
+    "login-demo-app": {
+      "tags": []
+    },
+    "login-demo-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["login-demo-app"]
     },
     "shared": {
       "tags": []
