@@ -9,9 +9,9 @@ import { sharedRoutes } from '@demo/shared';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Route[] = [
-  {path: '', component: HomeComponent, data: { user: 'ADMIN' } },
-  { path: 'auth', children: sharedRoutes },
-  { path: 'dashboard', component: DashboardComponent}
+  {path: '', component: HomeComponent, data: { user: 'CUSTOMER' } },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'auth', children: sharedRoutes }
 ];
 
 @NgModule({

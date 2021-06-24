@@ -1,0 +1,28 @@
+.home {
+  height: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .home-button {
+      margin-top: 0.5rem;
+      padding: 0.7rem 3rem;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+    .home-button:hover {
+      background-color: red;
+      color: azure;
+    }
+  }
+}
